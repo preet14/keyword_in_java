@@ -9,6 +9,7 @@ class Child extends Parent
 {
   public void dis()
   {
+    super.show();
     System.out.println("In Child ");
   }
 }
@@ -17,6 +18,6 @@ class q1
   public static void main(String args[])
   {
     Child c = new Child();
-    c.show();
+    c.dis();
   }
 }
